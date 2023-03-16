@@ -6,13 +6,6 @@ import (
 	"net/http"
 )
 
-type MotherFucker struct {
-	name   string
-	age    uint16
-	cum    int16
-	height int64
-}
-
 func homePage(w http.ResponseWriter, r *http.Request) {
 	tmpl := template.Must(template.ParseFiles("templates/index.html"))
 	tmpl.Execute(w, "data goes here")
