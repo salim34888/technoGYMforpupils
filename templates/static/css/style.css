@@ -55,8 +55,8 @@ body {
   font-family:Tahoma, Arial, sans-serif;
   font-size:16px;
   line-height:1.5em;
-  background: #000000 url(../img/фон.jpg);
-  background-size: 404px;
+  background: #000000 url(../img/фон2.jpg);
+  background-size: 1500px;
   color:#444444;
 }
 
@@ -118,6 +118,10 @@ a {
 .documents {
   list-style: square outside none;
   margin-left: 30px;
+}
+
+.other_color {
+  color: #a87310;
 }
 
 ul {

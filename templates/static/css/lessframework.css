@@ -108,11 +108,11 @@ px      68    160    252    */
   }
 
   #full_logo {
-    font-size: 25px;
+    font-size: 25px !important;
   }
 
   #smaller_logo {
-    font-size: 15px;
+    font-size: 15px !important;
   }
 
   h1 {
@@ -361,11 +361,11 @@ px      68    160    252    344    436    */
   }
   /* WIDE MOBILE BLOG ------------------------------------------------------------*/
   #full_logo {
-    font-size: 20px;
+    font-size: 15px !important;
   }
 
   #smaller_logo {
-    font-size: 10px;
+    font-size: 10px !important;
   }
 
   #posts-list {
